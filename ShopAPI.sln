@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopAPI", "ShopAPI\ShopAPI.csproj", "{D71944B5-C307-41F0-95DA-DF5EC811BE33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopAPI.WEB", "ShopAPI\ShopAPI.WEB.csproj", "{D71944B5-C307-41F0-95DA-DF5EC811BE33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{2E24B666-78EF-4FC6-AB12-173687D766A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.BLL", "Shop.BLL\Shop.BLL.csproj", "{0A53651E-B894-4CD5-BD25-28CA7AC40504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D71944B5-C307-41F0-95DA-DF5EC811BE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71944B5-C307-41F0-95DA-DF5EC811BE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71944B5-C307-41F0-95DA-DF5EC811BE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E24B666-78EF-4FC6-AB12-173687D766A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E24B666-78EF-4FC6-AB12-173687D766A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E24B666-78EF-4FC6-AB12-173687D766A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E24B666-78EF-4FC6-AB12-173687D766A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A53651E-B894-4CD5-BD25-28CA7AC40504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A53651E-B894-4CD5-BD25-28CA7AC40504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A53651E-B894-4CD5-BD25-28CA7AC40504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A53651E-B894-4CD5-BD25-28CA7AC40504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
